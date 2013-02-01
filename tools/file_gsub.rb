@@ -1,8 +1,8 @@
 #file_gsub.rb----------------------------------------
 input_filename = ARGV[0]
 output_filename = ARGV[1]
-match_words = "url\(images\/"
-replace_words = "url\(\/assets\/ui-bootstrap\/"
+match_words = "url\(\"images\/"
+replace_words = "url\(\"\/assets\/ui-bootstrap\/custom-theme\/"
 
 f=File.open(input_filename,"r")
 buffer = f.read();
